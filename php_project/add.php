@@ -66,8 +66,8 @@
        <label for=" description">Description:</label>
        <textarea name="description" rows="3" cols="50" class="form-control"></textarea>
 </div>
-      <input type="submit" name="submit" value="add product" class="btn btn-info" style="background-color:#FFEBEF;color:black">
-      <?php echo "<button class=\"btn btn-info\" style=\"background-color:#FFEBEF;color:black\" ><a href='view.php'>View Products</a></button>";?>
+      <input type="submit" name="submit" value="add product" class="btn btn-info" style="background-color:white;color:black">
+      <?php echo "<button class=\"btn btn-info\" style=\"background-color:white;color:black\" ><a href='view.php'>View Products</a></button>";?>
 </form>
 </div>
 </br>
