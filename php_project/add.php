@@ -21,7 +21,7 @@
  
     <!--start of navbar-->
     <nav class="navbar navbar-expand-lg" style="background-color:#FFEBEF;">
-        <a class="navbar-brand" href="#" style="color:black;font-weight: bold;">Shopify</a>
+        <a class="navbar-brand" href="add.php" style="color:black;font-weight: bold;">Shopify</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="http://localhost/php-miniproject/php_project/view.php" style="color:black;">Products<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="view.php" style="color:black;">Products<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/php-miniproject/php_project/add.php" style="color:black;" >Add Products</a>
+              <a class="nav-link" href="add.php" style="color:black;" >Add Products</a>
             </li>
     
           </ul>
@@ -47,7 +47,7 @@
     <!--end of navbar-->
 
     <!--start of form-->
-    <div class="container" style="background-color:#FFEBEF; border: 1px; border-radius: 50px;margin-top: 7%;  margin-bottom: 3%;  padding: 5%;">
+    <div class="container" style="border-radius: 40px; margin-bottom: 6%;  padding: 5%;margin-top: 8%;background-color:#FFEBEF;">
 <form  method="post" >
 <div class="form-group" id="form">
         <label for="productN">Product Name:</label>

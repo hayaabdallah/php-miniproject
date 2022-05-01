@@ -23,7 +23,7 @@ session_start();
  
     <!--start of navbar-->
     <nav class="navbar navbar-expand-lg" style="background-color:#FFEBEF;">
-        <a class="navbar-brand" href="#" style="color:black;font-weight: bold;">Shopify</a>
+        <a class="navbar-brand" href="add.php" style="color:black;font-weight: bold;">Shopify</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,10 +31,10 @@ session_start();
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="http://localhost/php-miniproject/home%20page/view.php" style="color:black;">Products<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="view.php" style="color:black;">Products<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/php-miniproject/home%20page/add.php" style="color:black;" >Add Products</a>
+              <a class="nav-link" href="add.php" style="color:black;" >Add Products</a>
             </li>
     
           </ul>
@@ -62,7 +62,7 @@ session_start();
         echo ('<div class="col-md-4 mt-2">
         <div class="card">
             <div class="card-body">
-                <div class="card-img-actions"> <img src="images/'.$arr4[$i].'"  class="card-img img-fluid" width="96" height="350" alt="Image"> </div>
+                <div class="card-img-actions"> <img src="images/'.$arr4[$i].'"  class="card-img img-fluid" width="96" height="350" alt="product image"> </div>
             </div>
             <div class="card-body bg-light">
                 <div class="mb-2">
@@ -70,7 +70,7 @@ session_start();
                     </div>
                     <h4 class="mb-0 font-weight-semibold">$' . $arr2[$i] . '</h4>
                     <div> </div>
-                    <div class="text-muted mb-3"></div> <button type="button"  class="btn bg-cart btn-secondary"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                    <div class="text-muted mb-3"></div> <button type="button"  class="btn bg-cart btn-secondary"> Add to cart</button>
                 </div>
             </div>
         </div>');
